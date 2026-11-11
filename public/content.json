@@ -1,0 +1,1478 @@
+{
+  "brand": {
+    "name": "Renovanest",
+    "tagline": "The glossy edit",
+    "handle": "@mirra.edit",
+    "instagramUrl": "https://instagram.com/",
+    "email": "hello@mirra.edit",
+    "affiliateSuffix": "",
+    "currency": "USD",
+    "logo": "/brand/renovanest-logo.png",
+    "showName": false
+  },
+  "theme": {
+    "bg": "#e5f0e6",
+    "ink": "#102018",
+    "muted": "#4d6156",
+    "gold": "#c6a15a",
+    "ember": "#1f6b45",
+    "stage": "#143028",
+    "promoBg": "#e5f0e6",
+    "promoText": "#102018",
+    "footerBg": "#f4faf4",
+    "footerText": "#102018",
+    "paper": "#f4faf4",
+    "preset": "forest",
+    "surface": "light",
+    "stageMode": "dark"
+  },
+  "announcement": {
+    "show": true,
+    "text": "This week’s edit is live — browse here, buy on AliExpress.",
+    "linkLabel": "@renovanest.edit",
+    "linkUrl": "https://instagram.com/"
+  },
+  "header": {
+    "showSearch": true,
+    "searchPlaceholder": "Search the edit",
+    "design": "classic",
+    "logoPlace": "design",
+    "menuPlace": "design",
+    "searchPlace": "design",
+    "bar": "ink",
+    "links": "underline",
+    "items": [
+      {
+        "id": "home",
+        "label": "Home",
+        "type": "link",
+        "to": "/",
+        "show": true,
+        "children": []
+      },
+      {
+        "id": "shop",
+        "label": "Shop",
+        "type": "dropdown",
+        "to": "/shop",
+        "show": true,
+        "children": [
+          {
+            "id": "all",
+            "label": "All pieces",
+            "to": "/shop",
+            "show": true
+          },
+          {
+            "id": "cat-tech",
+            "label": "Tech",
+            "to": "/shop?category=tech",
+            "show": true
+          },
+          {
+            "id": "cat-beauty",
+            "label": "Beauty",
+            "to": "/shop?category=beauty",
+            "show": true
+          },
+          {
+            "id": "cat-home",
+            "label": "Home",
+            "to": "/shop?category=home",
+            "show": true
+          },
+          {
+            "id": "cat-style",
+            "label": "Style",
+            "to": "/shop?category=style",
+            "show": true
+          },
+          {
+            "id": "cat-fitness",
+            "label": "Fitness",
+            "to": "/shop?category=fitness",
+            "show": true
+          }
+        ]
+      },
+      {
+        "id": "new",
+        "label": "New in",
+        "type": "link",
+        "to": "/shop?new=1",
+        "show": true,
+        "children": []
+      },
+      {
+        "id": "about",
+        "label": "About",
+        "type": "link",
+        "to": "/about",
+        "show": true,
+        "children": []
+      },
+      {
+        "id": "page-studio-notes",
+        "label": "Studio notes",
+        "type": "link",
+        "to": "/page/studio-notes",
+        "show": true,
+        "children": []
+      }
+    ]
+  },
+  "footer": {
+    "show": true,
+    "design": "split",
+    "align": "left",
+    "tone": "paper",
+    "lead": "A curated counter for the Instagram account. Look through the edit here, then pay the seller on AliExpress.",
+    "showSocials": true,
+    "socials": [
+      {
+        "id": "instagram",
+        "label": "Instagram",
+        "href": "https://instagram.com/",
+        "show": true
+      },
+      {
+        "id": "tiktok",
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/",
+        "show": true
+      },
+      {
+        "id": "pinterest",
+        "label": "Pinterest",
+        "href": "https://www.pinterest.com/",
+        "show": true
+      },
+      {
+        "id": "youtube",
+        "label": "YouTube",
+        "href": "https://www.youtube.com/",
+        "show": true
+      }
+    ],
+    "columns": [
+      {
+        "id": "shop-col",
+        "title": "Shop",
+        "links": [
+          {
+            "id": "all",
+            "label": "All pieces",
+            "to": "/shop"
+          },
+          {
+            "id": "new",
+            "label": "New in",
+            "to": "/shop?new=1"
+          },
+          {
+            "id": "tech",
+            "label": "Tech",
+            "to": "/shop?category=tech"
+          },
+          {
+            "id": "beauty",
+            "label": "Beauty",
+            "to": "/shop?category=beauty"
+          },
+          {
+            "id": "home",
+            "label": "Home",
+            "to": "/shop?category=home"
+          },
+          {
+            "id": "style",
+            "label": "Style",
+            "to": "/shop?category=style"
+          },
+          {
+            "id": "fitness",
+            "label": "Fitness",
+            "to": "/shop?category=fitness"
+          }
+        ]
+      },
+      {
+        "id": "help-col",
+        "title": "Help",
+        "links": [
+          {
+            "id": "buying",
+            "label": "Buying on AliExpress",
+            "to": "/about#buying"
+          },
+          {
+            "id": "shipping",
+            "label": "Shipping and returns",
+            "to": "/about#shipping"
+          },
+          {
+            "id": "faq",
+            "label": "FAQ",
+            "to": "/about#faq"
+          },
+          {
+            "id": "contact",
+            "label": "Contact",
+            "to": "/about#contact"
+          }
+        ]
+      }
+    ],
+    "newsletter": {
+      "show": true,
+      "title": "Notes from the edit",
+      "placeholder": "Email address",
+      "button": "Join",
+      "note": "Dummy signup for now. Prices on the site are in {currency}.",
+      "thanks": "You’re on the list. This form is still a placeholder — nothing was emailed."
+    },
+    "copyright": "Purchases finish on AliExpress.",
+    "showHandle": true
+  },
+  "home": {
+    "pageTitle": "{name} — {tagline}",
+    "hero": {
+      "show": true,
+      "eyebrow": "Instagram edit · drops weekly",
+      "title": "Look here.\nBuy at the source.",
+      "lede": "Renovanest is the counter for the account. Browse a short list of pieces, then finish the order on AliExpress — seller, shipping, and payment stay with them.",
+      "primaryLabel": "Shop the edit",
+      "primaryTo": "/shop",
+      "secondaryLabel": "How buying works",
+      "secondaryTo": "/about#buying",
+      "showStats": true,
+      "showStage": true,
+      "stats": [
+        {
+          "value": "{products}",
+          "label": "pieces live"
+        },
+        {
+          "value": "{categories}",
+          "label": "categories"
+        },
+        {
+          "value": "AliExpress",
+          "label": "where you pay"
+        }
+      ]
+    },
+    "marquee": {
+      "show": true,
+      "phrases": [
+        "Tech",
+        "Beauty",
+        "Home",
+        "Style",
+        "Fitness",
+        "Browse here",
+        "Buy on AliExpress",
+        "@mirra.edit"
+      ]
+    },
+    "categories": {
+      "show": true,
+      "kicker": "Browse by room",
+      "title": "Five ways in.",
+      "linkLabel": "View all",
+      "linkTo": "/shop"
+    },
+    "featured": {
+      "show": true,
+      "kicker": "On the stage",
+      "title": "Featured this week.",
+      "linkLabel": "Open the shop",
+      "linkTo": "/shop"
+    },
+    "steps": {
+      "show": true,
+      "kicker": "Three steps",
+      "title": "Then you’re on AliExpress.",
+      "items": [
+        {
+          "title": "Pick from the edit",
+          "text": "Use a category in the menu, a price filter, or search for something you saw in a story."
+        },
+        {
+          "title": "Read the notes",
+          "text": "Photos set the mood. The listing on AliExpress is where finish, size, and seller are real."
+        },
+        {
+          "title": "Buy at the source",
+          "text": "Buy on AliExpress opens their page for that piece in a new tab. Checkout never happens here."
+        }
+      ]
+    },
+    "instagram": {
+      "show": true,
+      "eyebrow": "The feed is the lookbook",
+      "title": "Follow along, then come back to the edit.",
+      "label": "{handle}",
+      "url": "{instagram}"
+    }
+  },
+  "shop": {
+    "kicker": "Shop",
+    "defaultTitle": "The edit",
+    "newTitle": "New in",
+    "intro": "Filter by category or price, or search for something from the feed.",
+    "allLabel": "All pieces",
+    "categoryLabel": "Category",
+    "priceLabel": "Price",
+    "newToggle": "New arrivals only",
+    "clearLabel": "Clear all",
+    "showLabel": "Show filters",
+    "hideLabel": "Hide filters",
+    "searchPlaceholder": "Search pieces",
+    "resultSingular": "piece",
+    "resultPlural": "pieces",
+    "emptyTitle": "Nothing in this cut of the edit.",
+    "emptyText": "Try another word, or clear the filters and start from the full list.",
+    "emptyButton": "Clear filters",
+    "showFilters": true,
+    "showPrice": true,
+    "showNew": true,
+    "showSort": true,
+    "showSearch": true,
+    "bands": [
+      {
+        "id": "all",
+        "label": "Any price"
+      },
+      {
+        "id": "u15",
+        "label": "Under $15"
+      },
+      {
+        "id": "15-25",
+        "label": "$15 – $25"
+      },
+      {
+        "id": "25plus",
+        "label": "Over $25"
+      }
+    ],
+    "sorts": [
+      {
+        "id": "featured",
+        "label": "Featured"
+      },
+      {
+        "id": "newest",
+        "label": "Newest"
+      },
+      {
+        "id": "price-asc",
+        "label": "Price, low to high"
+      },
+      {
+        "id": "price-desc",
+        "label": "Price, high to low"
+      },
+      {
+        "id": "rating",
+        "label": "Top rated"
+      }
+    ],
+    "card": {
+      "showBadge": true,
+      "showCategory": true,
+      "showBlurb": true,
+      "showRating": true,
+      "showCompare": true,
+      "showBuy": true,
+      "buyLabel": "Buy"
+    }
+  },
+  "productPage": {
+    "missingKicker": "Missing",
+    "missingTitle": "This piece isn’t in the edit.",
+    "missingText": "It may have rotated out. The shop still has the current list.",
+    "missingButton": "Back to the shop",
+    "showRating": true,
+    "showCompare": true,
+    "showColors": true,
+    "colorLabel": "Color reference",
+    "priceNote": "Shown in {currency}. The price you pay is the one on AliExpress.",
+    "buyLabel": "Buy on AliExpress",
+    "buyNote": "Opens AliExpress in a new tab. Choose the seller there.",
+    "assurances": [
+      "Curated for the feed",
+      "Checkout stays on AliExpress",
+      "Seller sets shipping"
+    ],
+    "notesKicker": "Notes",
+    "notesTitle": "What this piece is for.",
+    "showRelated": true,
+    "relatedKicker": "Same category",
+    "relatedTitle": "Also in {category}.",
+    "relatedLink": "See all"
+  },
+  "about": {
+    "pageTitle": "About · {name}",
+    "kicker": "About",
+    "title": "A shop window for the account.",
+    "text": "The feed does the introducing. This site holds the edit still long enough to choose.",
+    "sections": [
+      {
+        "id": "story",
+        "layout": "stack",
+        "kicker": "The idea",
+        "title": "Thousands of people already watching. One place to send them.",
+        "paragraphs": [
+          "Renovanest sits between an Instagram account and AliExpress. Stories and posts stay where the audience already is. The link in bio lands here: a home page, a filterable shop, and a page for each piece. The purchase itself is handed back to AliExpress.",
+          "Add a real piece from the admin: name, photos, price, and the AliExpress item link. The Buy button opens that link."
+        ],
+        "linkLabel": "",
+        "linkTo": ""
+      },
+      {
+        "id": "buying",
+        "layout": "split",
+        "kicker": "Buying",
+        "title": "What the button actually does.",
+        "paragraphs": [
+          "Every piece has a Buy on AliExpress control. It opens a new tab. Paste the exact item URL in the product and the button goes there. If the URL is empty, it searches AliExpress for the fallback words.",
+          "An affiliate key in Brand settings is appended to that outbound link."
+        ],
+        "linkLabel": "Browse the edit",
+        "linkTo": "/shop"
+      },
+      {
+        "id": "shipping",
+        "layout": "split",
+        "kicker": "Shipping and returns",
+        "title": "The seller ships. Their policy returns.",
+        "paragraphs": [
+          "Delivery times, tracking, and buyer protection are shown on AliExpress after you pick a seller. A photo here is not a promise about a parcel.",
+          "If something arrives wrong, start with the order on AliExpress. This storefront does not hold stock and does not process the refund."
+        ],
+        "linkLabel": "",
+        "linkTo": ""
+      }
+    ],
+    "faqKicker": "FAQ",
+    "faqTitle": "Short answers.",
+    "faqs": [
+      {
+        "q": "Do I pay on this website?",
+        "a": "No. This site is the lookbook and the shortlist. Buy on AliExpress opens their site, and that is where payment, address, and shipping are handled."
+      },
+      {
+        "q": "Will the price match?",
+        "a": "The price here is the edit’s reference. AliExpress prices move with the seller, shipping, and coupons. Trust the figure on their checkout."
+      },
+      {
+        "q": "Can I return something?",
+        "a": "Returns follow the AliExpress seller’s policy and AliExpress buyer protection. This storefront cannot issue that refund."
+      }
+    ],
+    "contact": {
+      "kicker": "Contact",
+      "title": "Say hello.",
+      "text": "Dummy form for the layout. Mail it later at {email}, or reply from {handle}.",
+      "button": "Send note",
+      "thanks": "Noted. Nothing was sent — wire this form up when the inbox is real."
+    }
+  },
+  "pages": [
+    {
+      "id": "page-nf65xb",
+      "title": "Studio notes",
+      "slug": "studio-notes",
+      "kicker": "",
+      "intro": "",
+      "showBanner": true,
+      "published": true,
+      "showInMenu": true,
+      "menuLabel": "",
+      "bannerWidth": "site",
+      "bannerContent": "site",
+      "bannerAlign": "site",
+      "bodyWidth": "site",
+      "bodyAlign": "left",
+      "blocks": [
+        {
+          "id": "block-ax1qfn",
+          "type": "text",
+          "show": true,
+          "width": "page",
+          "align": "page",
+          "mediaSize": "fill",
+          "kicker": "",
+          "title": "",
+          "body": "A page built from blocks.",
+          "linkLabel": "",
+          "linkTo": ""
+        },
+        {
+          "id": "block-uogpi3",
+          "type": "quote",
+          "show": true,
+          "width": "page",
+          "align": "page",
+          "mediaSize": "fill",
+          "text": "Look here. Buy at the source.",
+          "credit": ""
+        }
+      ]
+    }
+  ],
+  "notFound": {
+    "kicker": "404",
+    "title": "That page isn’t in the edit.",
+    "text": "The link may be old. The shop is a better place to start.",
+    "button": "Go to the shop"
+  },
+  "seo": {
+    "title": "{name} — {tagline}",
+    "description": "Renovanest is a curated storefront. Browse the edit here, then buy the piece on AliExpress.",
+    "keywords": "",
+    "image": "",
+    "siteUrl": "",
+    "robots": "index,follow"
+  },
+  "layout": {
+    "contentWidth": "wide",
+    "bodyAlign": "left",
+    "headerWidth": "full",
+    "headerContent": "fill",
+    "promoWidth": "full",
+    "promoAlign": "center",
+    "bannerWidth": "full",
+    "bannerContent": "fill",
+    "bannerAlign": "left",
+    "footerWidth": "full",
+    "footerAlign": "left"
+  },
+  "categories": [
+    {
+      "blurb": "Sound, light, and the desk.",
+      "id": "tech",
+      "name": "Tech"
+    },
+    {
+      "blurb": "Vanity pieces with a finish.",
+      "id": "beauty",
+      "name": "Beauty"
+    },
+    {
+      "blurb": "Objects for a quieter room.",
+      "id": "home",
+      "name": "Home"
+    },
+    {
+      "blurb": "Small things worn every day.",
+      "id": "style",
+      "name": "Style"
+    },
+    {
+      "blurb": "Gear that leaves the shelf.",
+      "id": "fitness",
+      "name": "Fitness"
+    }
+  ],
+  "products": [
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "wireless earbuds bluetooth",
+      "compareAt": 39,
+      "badge": "Editor’s pick",
+      "colors": [
+        "Ivory",
+        "Graphite"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "In-ear shape with a charging case",
+        "Touch controls on the stems",
+        "Ivory or graphite in most listings",
+        "Confirm battery and codec on the seller page"
+      ],
+      "featured": true,
+      "isNew": false,
+      "rating": 4.8,
+      "reviews": 2146,
+      "tone": "#d7c4b4",
+      "blurb": "In-ear pair and a pocket case, picked for commute clips.",
+      "description": "A compact listening set for walks, reels, and desk hours. Renovanest lists it for the look and the everyday use — the seller, warranty, and exact battery life are confirmed on AliExpress before you pay.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "halo-buds",
+      "name": "Halo Buds",
+      "category": "tech",
+      "price": 24.9
+    },
+    {
+      "visible": true,
+      "aliUrl": "https://www.aliexpress.com/item/1005008620579734.html?spm=a2g0o.tm1000057029.ppc_app_list_lgmv.7.10c16f3dxvU2tv&gps-id=ppc_app_list_lgmv&scm=1007.69754.503990.0&scm_id=1007.69754.503990.0&scm-url=1007.69754.503990.0&pvid=338f6a9e-3126-4973-9e57-7916b3f1871e&_t=gps-id%3Appc_app_list_lgmv%2Cscm-url%3A1007.69754.503990.0%2Cpvid%3A338f6a9e-3126-4973-9e57-7916b3f1871e%2Ctpp_buckets%3A668%232846%238111%231996&pdp_ext_f=%7B%22order%22%3A%22214%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2259754%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21PKR%217141.98%215522.34%21%21%21151.34%21117.02%21%40210178d717943866543143054e0c3b%2112000045984420145%21rec%21PK%21%21ABX%211%210%21n_tag%3A-29910%3Bd%3A427685a6%3Bm03_new_user%3A-29895%3BpisId%3A5000000219373448&utparam-url=scene%3Appc_app_list_lgmv%7Cquery_from%3A%7Cx_object_id%3A1005008620579734%7C_p_origin_prod%3A",
+      "aliQuery": "compact mechanical keyboard",
+      "compareAt": 45,
+      "badge": "",
+      "colors": [
+        "Fog",
+        "Ink"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Compact layout",
+        "Wired and wireless versions exist",
+        "Backlight is listing-dependent",
+        "Read the switch notes before buying"
+      ],
+      "featured": false,
+      "isNew": false,
+      "rating": 4.6,
+      "reviews": 640,
+      "tone": "#c9c2b8",
+      "blurb": "A low keyboard for people who type more than they scroll.",
+      "description": "Short layout, quiet enough for a shared room, and easy to style in a desk flat-lay. Switch type and backlight change between listings — pick those on AliExpress.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "board-keys",
+      "name": "Board Keys",
+      "category": "tech",
+      "price": 29.5
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "LED desk lamp wood brass",
+      "compareAt": 48,
+      "badge": "Desk favorite",
+      "colors": [
+        "Brass",
+        "Black"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Warm, dimmable light on most versions",
+        "Compact base for a crowded desk",
+        "Brass and black finishes show up often",
+        "Check plug type for your country"
+      ],
+      "featured": true,
+      "isNew": false,
+      "rating": 4.7,
+      "reviews": 980,
+      "tone": "#cbb79a",
+      "blurb": "A warm pool of light for late edits and bedside reading.",
+      "description": "Tall neck, small footprint, and a glow that flatters both product photos and ordinary evenings. Styles vary by seller, so match the finish in the AliExpress photos before checkout.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "arc-lamp",
+      "name": "Arc Lamp",
+      "category": "tech",
+      "price": 32
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "portable bluetooth speaker",
+      "compareAt": 0,
+      "badge": "New",
+      "colors": [
+        "Sand",
+        "Black"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Bluetooth pairing",
+        "Carry-size body",
+        "Strap and waterproofing vary",
+        "Check recent seller reviews for battery"
+      ],
+      "featured": false,
+      "isNew": true,
+      "rating": 4.5,
+      "reviews": 1550,
+      "tone": "#b7c4c0",
+      "blurb": "Small cylinder of sound for the kitchen counter or a picnic.",
+      "description": "Built to move between rooms. Volume and waterproof claims differ a lot on AliExpress, so treat the seller’s photos and reviews as the spec sheet.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "pocket-speaker",
+      "name": "Pocket Speaker",
+      "category": "tech",
+      "price": 21
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "skincare serum set",
+      "compareAt": 28,
+      "badge": "Routine",
+      "colors": [
+        "Clear",
+        "Amber"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Glass-bottle look",
+        "Usually sold as a pair",
+        "Dropper tops on most sets",
+        "Check ingredients and expiry on the listing"
+      ],
+      "featured": true,
+      "isNew": false,
+      "rating": 4.7,
+      "reviews": 890,
+      "tone": "#e4d2c6",
+      "blurb": "Two glass bottles that earn their place on a lit shelf.",
+      "description": "A simple pair for a short routine. Ingredient lists are not interchangeable between sellers — read them on AliExpress, especially if your skin is reactive.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "serum-duo",
+      "name": "Serum Duo",
+      "category": "beauty",
+      "price": 18.4
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "makeup brush set",
+      "compareAt": 0,
+      "badge": "",
+      "colors": [
+        "Blush",
+        "Black"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Mixed brush sizes",
+        "Roll or pouch included on many sets",
+        "Blush and black handles are common",
+        "Wash before first use"
+      ],
+      "featured": false,
+      "isNew": false,
+      "rating": 4.6,
+      "reviews": 2104,
+      "tone": "#e7d5cf",
+      "blurb": "A rolled set of brushes for base, cheek, and detail.",
+      "description": "Soft enough for a daily face, dense enough to show up on camera. Bristle feel is the thing to judge from buyer photos on AliExpress.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "brush-roll",
+      "name": "Brush Roll",
+      "category": "beauty",
+      "price": 13.8
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "eau de parfum bottle",
+      "compareAt": 36,
+      "badge": "New",
+      "colors": [
+        "Noir",
+        "Clear"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Statement bottle",
+        "Notes differ by listing",
+        "Travel sizes sometimes bundled",
+        "Smell is final only from the seller description"
+      ],
+      "featured": false,
+      "isNew": true,
+      "rating": 4.4,
+      "reviews": 430,
+      "tone": "#1d1a17",
+      "blurb": "A dark bottle for the shelf, not a promise about the scent.",
+      "description": "Fragrance is personal and listings vary wildly. Use Renovanest to shortlist the bottle style, then read the scent notes and seller rating on AliExpress.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "noir-flacon",
+      "name": "Noir Flacon",
+      "category": "beauty",
+      "price": 27
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "makeup compact mirror",
+      "compareAt": 0,
+      "badge": "",
+      "colors": [
+        "Rose",
+        "Gold"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Pocket size",
+        "Mirror in the lid on most versions",
+        "Rose and gold tones",
+        "Check that the listing includes the product, not just the palette photo"
+      ],
+      "featured": false,
+      "isNew": false,
+      "rating": 4.5,
+      "reviews": 760,
+      "tone": "#e6c9c2",
+      "blurb": "A palm mirror and a little color, made to live in a bag.",
+      "description": "Useful more than precious. Hinge quality is the usual weak point, so lean on recent AliExpress reviews with photos.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "rose-compact",
+      "name": "Rose Compact",
+      "category": "beauty",
+      "price": 15.6
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "gooseneck kettle",
+      "compareAt": 52,
+      "badge": "Editor’s pick",
+      "colors": [
+        "Copper",
+        "Steel"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Gooseneck pour",
+        "Copper or steel finishes",
+        "Stovetop and electric versions both exist",
+        "Match the heat source to the listing"
+      ],
+      "featured": true,
+      "isNew": false,
+      "rating": 4.8,
+      "reviews": 510,
+      "tone": "#c9865a",
+      "blurb": "A pour that looks as considered as the cup beside it.",
+      "description": "For tea, coffee, and a counter that shows up in stories. Capacity and whether it is stovetop or electric change by listing — confirm both before you buy.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "copper-kettle",
+      "name": "Copper Kettle",
+      "category": "home",
+      "price": 34
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "ceramic coffee mug set",
+      "compareAt": 0,
+      "badge": "",
+      "colors": [
+        "Speck",
+        "Cream"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Ceramic, speckled glaze",
+        "Everyday size",
+        "Sets and singles both listed",
+        "Dishwasher notes vary — read them"
+      ],
+      "featured": false,
+      "isNew": false,
+      "rating": 4.7,
+      "reviews": 1320,
+      "tone": "#efe2d4",
+      "blurb": "A heavy ceramic cup that makes a slow morning look finished.",
+      "description": "Sold alone or as a pair depending on the seller. Glaze color shifts in photos, so pick from the listing’s own gallery.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "studio-mug",
+      "name": "Studio Mug",
+      "category": "home",
+      "price": 12.5
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "scented soy candle",
+      "compareAt": 22,
+      "badge": "",
+      "colors": [
+        "Amber",
+        "Cream"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1572726729207-a78d6feb18d7?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Jar candle",
+        "Soy and paraffin blends both common",
+        "Amber glass on many listings",
+        "Trim the wick; confirm burn time with the seller"
+      ],
+      "featured": false,
+      "isNew": false,
+      "rating": 4.6,
+      "reviews": 980,
+      "tone": "#e7c27a",
+      "blurb": "One warm light for a table you actually eat at.",
+      "description": "Scent names are marketing. Burn time and wax type should come from the AliExpress description, not from the photo mood.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "amber-candle",
+      "name": "Amber Candle",
+      "category": "home",
+      "price": 14.2
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "ribbed glass flower vase",
+      "compareAt": 0,
+      "badge": "New",
+      "colors": [
+        "Clear",
+        "Smoke"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Ribbed glass",
+        "Clear and smoke options",
+        "Heights vary widely",
+        "Packaged as glass — read the protection notes"
+      ],
+      "featured": false,
+      "isNew": true,
+      "rating": 4.5,
+      "reviews": 340,
+      "tone": "#d5ddd4",
+      "blurb": "A ridged glass that does the work even with grocery flowers.",
+      "description": "Light, breakable, and better in person than in a parcel photo. Size numbers on AliExpress are worth checking against a mug you already own.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "ribbed-vase",
+      "name": "Ribbed Vase",
+      "category": "home",
+      "price": 19
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "pearl necklace",
+      "compareAt": 16,
+      "badge": "Under $10",
+      "colors": [
+        "Pearl",
+        "Gold"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Short strand",
+        "Pearl tone with a small metal clasp",
+        "Length differs by listing",
+        "Keep it dry"
+      ],
+      "featured": true,
+      "isNew": false,
+      "rating": 4.7,
+      "reviews": 3200,
+      "tone": "#e6d3b0",
+      "blurb": "A short strand that sits cleanly on a neckline and on camera.",
+      "description": "The cheapest piece in the edit and one of the easiest to wear. Clasp and length vary by seller — the AliExpress photos are the ones to trust.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "pearl-strand",
+      "name": "Pearl Strand",
+      "category": "style",
+      "price": 8.9
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "mini shoulder bag",
+      "compareAt": 34,
+      "badge": "Editor’s pick",
+      "colors": [
+        "Tan",
+        "Black"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Mini shoulder shape",
+        "Tan and black are the usual colors",
+        "Magnetic or zip closure, listing-dependent",
+        "Check strap length against your height"
+      ],
+      "featured": true,
+      "isNew": false,
+      "rating": 4.6,
+      "reviews": 870,
+      "tone": "#c4a48a",
+      "blurb": "Structured, small, and meant to leave the house.",
+      "description": "Fits a phone, a compact, and keys. Strap drop and hardware color are the details to match on the AliExpress listing.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "day-bag",
+      "name": "Day Bag",
+      "category": "style",
+      "price": 22.5
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "oval sunglasses",
+      "compareAt": 0,
+      "badge": "New",
+      "colors": [
+        "Tortoise",
+        "Black"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Oval lens",
+        "Tortoise and black frames",
+        "Lightweight acetate-style builds are common",
+        "Confirm UV language on the seller page"
+      ],
+      "featured": false,
+      "isNew": true,
+      "rating": 4.4,
+      "reviews": 640,
+      "tone": "#d9d3cc",
+      "blurb": "A soft oval frame for bright days and brighter photos.",
+      "description": "These are a style pick, not certified eyewear. UV claims should be judged from the listing and reviews, not assumed.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "rim-glasses",
+      "name": "Rim Glasses",
+      "category": "style",
+      "price": 11.4
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "insulated stainless water bottle",
+      "compareAt": 24,
+      "badge": "New",
+      "colors": [
+        "Steel",
+        "Sage"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Stainless body",
+        "Insulated wall on most listings",
+        "Steel and sage colors",
+        "Check lid type: straw, spout, or screw"
+      ],
+      "featured": false,
+      "isNew": true,
+      "rating": 4.8,
+      "reviews": 1902,
+      "tone": "#c5d0d4",
+      "blurb": "Cold water that still looks like a prop when you set it down.",
+      "description": "Insulation hours are the spec that gets exaggerated. Trust listings with buyer photos of ice still in the bottle at the end of the day.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "steel-bottle",
+      "name": "Steel Bottle",
+      "category": "fitness",
+      "price": 16.8
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "non slip yoga mat",
+      "compareAt": 0,
+      "badge": "",
+      "colors": [
+        "Sage",
+        "Clay"
+      ],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [
+        "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?auto=format&fit=crop&w=1400&q=80",
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1400&q=80"
+      ],
+      "details": [
+        "Non-slip surface claimed on most listings",
+        "Sage and clay colors",
+        "Thickness usually 6–8 mm",
+        "Air it out when it arrives"
+      ],
+      "featured": false,
+      "isNew": false,
+      "rating": 4.6,
+      "reviews": 705,
+      "tone": "#c9d2c4",
+      "blurb": "A mat with enough grip for a short home session.",
+      "description": "Thickness and smell-on-arrival are the two complaints to scan for in AliExpress reviews. Color in the room will be slightly duller than the studio photo.",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "club-mat",
+      "name": "Club Mat",
+      "category": "fitness",
+      "price": 26
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "",
+      "compareAt": 0,
+      "badge": "",
+      "colors": [],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [],
+      "details": [],
+      "featured": false,
+      "isNew": true,
+      "rating": 5,
+      "reviews": 0,
+      "tone": "#e7dcd0",
+      "blurb": "",
+      "description": "",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "piece-1794385796365",
+      "name": "New piece",
+      "category": "tech",
+      "price": 0
+    },
+    {
+      "visible": true,
+      "aliUrl": "",
+      "aliQuery": "",
+      "compareAt": 0,
+      "badge": "",
+      "colors": [],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [],
+      "details": [],
+      "featured": false,
+      "isNew": true,
+      "rating": 5,
+      "reviews": 0,
+      "tone": "#e7dcd0",
+      "blurb": "",
+      "description": "",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "piece-1794385796980",
+      "name": "New piece",
+      "category": "tech",
+      "price": 0
+    },
+    {
+      "visible": true,
+      "aliUrl": "https://www.aliexpress.com/item/1005008620579734.html?spm=a2g0o.tm1000057029.ppc_app_list_lgmv.7.10c16f3dxvU2tv&gps-id=ppc_app_list_lgmv&scm=1007.69754.503990.0&scm_id=1007.69754.503990.0&scm-url=1007.69754.503990.0&pvid=338f6a9e-3126-4973-9e57-7916b3f1871e&_t=gps-id%3Appc_app_list_lgmv%2Cscm-url%3A1007.69754.503990.0%2Cpvid%3A338f6a9e-3126-4973-9e57-7916b3f1871e%2Ctpp_buckets%3A668%232846%238111%231996&pdp_ext_f=%7B%22order%22%3A%22214%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2259754%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21PKR%217141.98%215522.34%21%21%21151.34%21117.02%21%40210178d717943866543143054e0c3b%2112000045984420145%21rec%21PK%21%21ABX%211%210%21n_tag%3A-29910%3Bd%3A427685a6%3Bm03_new_user%3A-29895%3BpisId%3A5000000219373448&utparam-url=scene%3Appc_app_list_lgmv%7Cquery_from%3A%7Cx_object_id%3A1005008620579734%7C_p_origin_prod%3A",
+      "aliQuery": "",
+      "compareAt": 0,
+      "badge": "",
+      "colors": [],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "",
+      "images": [],
+      "details": [],
+      "featured": false,
+      "isNew": true,
+      "rating": 5,
+      "reviews": 0,
+      "tone": "#e7dcd0",
+      "blurb": "",
+      "description": "",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "piece-1794385876628",
+      "name": "New piece",
+      "category": "tech",
+      "price": 0
+    },
+    {
+      "visible": true,
+      "aliUrl": "https://www.aliexpress.com/item/1005008620579734.html?spm=a2g0o.tm1000057029.ppc_app_list_lgmv.7.10c16f3dxvU2tv&gps-id=ppc_app_list_lgmv&scm=1007.69754.503990.0&scm_id=1007.69754.503990.0&scm-url=1007.69754.503990.0&pvid=338f6a9e-3126-4973-9e57-7916b3f1871e&_t=gps-id%3Appc_app_list_lgmv%2Cscm-url%3A1007.69754.503990.0%2Cpvid%3A338f6a9e-3126-4973-9e57-7916b3f1871e%2Ctpp_buckets%3A668%232846%238111%231996&pdp_ext_f=%7B%22order%22%3A%22214%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2259754%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21PKR%217141.98%215522.34%21%21%21151.34%21117.02%21%40210178d717943866543143054e0c3b%2112000045984420145%21rec%21PK%21%21ABX%211%210%21n_tag%3A-29910%3Bd%3A427685a6%3Bm03_new_user%3A-29895%3BpisId%3A5000000219373448&utparam-url=scene%3Appc_app_list_lgmv%7Cquery_from%3A%7Cx_object_id%3A1005008620579734%7C_p_origin_prod%3Ahttps://www.aliexpress.com/item/1005008620579734.html?spm=a2g0o.tm1000057029.ppc_app_list_lgmv.7.10c16f3dxvU2tv&gps-id=ppc_app_list_lgmv&scm=1007.69754.503990.0&scm_id=1007.69754.503990.0&scm-url=1007.69754.503990.0&pvid=338f6a9e-3126-4973-9e57-7916b3f1871e&_t=gps-id%3Appc_app_list_lgmv%2Cscm-url%3A1007.69754.503990.0%2Cpvid%3A338f6a9e-3126-4973-9e57-7916b3f1871e%2Ctpp_buckets%3A668%232846%238111%231996&pdp_ext_f=%7B%22order%22%3A%22214%22%2C%22spu_best_type%22%3A%22price%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2259754%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21PKR%217141.98%215522.34%21%21%21151.34%21117.02%21%40210178d717943866543143054e0c3b%2112000045984420145%21rec%21PK%21%21ABX%211%210%21n_tag%3A-29910%3Bd%3A427685a6%3Bm03_new_user%3A-29895%3BpisId%3A5000000219373448&utparam-url=scene%3Appc_app_list_lgmv%7Cquery_from%3A%7Cx_object_id%3A1005008620579734%7C_p_origin_prod%3A",
+      "aliQuery": "Eary Magnetic Frameless Phone Case for Samsung Galaxy",
+      "compareAt": 151.34,
+      "badge": "",
+      "colors": [
+        "Titanium",
+        "Black",
+        "Desert Titanium"
+      ],
+      "options": [
+        "Color: Titanium",
+        "Material: Galaxy S24 Ultra",
+        "Material: Galaxy S25 Ultra",
+        "Color: Black",
+        "Color: Desert Titanium"
+      ],
+      "optionsSource": "reviews",
+      "quotes": [
+        "Color:Titanium Material:Galaxy S24 Ultra — Fits perfectly, protects high-risk areas from falls. \n You have to get used to holding it a bit, but I like it. I recommend it",
+        "Color:Titanium Material:Galaxy S25 Ultra — I love how it looks. Without a doubt, if you like using your phone without a case and want protection, this is your purchase.",
+        "Color:Titanium Material:Galaxy S24 Ultra — It arrived perfectly, I really love it. I would have liked a place to attach a lanyard and it would be a 10/10.",
+        "Color:Titanium Material:Galaxy S24 Ultra — Fulfills what was promised!! Good purchase!",
+        "Color:Black Material:Galaxy S25 Ultra — The best case I've ever had",
+        "Color:Titanium Material:Galaxy S25 Ultra — very good 10/10 👌"
+      ],
+      "stars": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 6,
+        "5": 22
+      },
+      "currency": "USD",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/S091cef77b5e34a32b0e2239556ecacbbt.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sed85c4c41c284361bf9f7ca40930c198C.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S9025d9b77dd8420f982c782ed991b03ee.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf3049026aa7b466f88b5d3389d1bcad39.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sc60605ad27424f7f95eacae5fa282da71.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S61189f03aa2d40b4a0aab509629b1049a.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S091cef77b5e34a32b0e2239556ecacbbt/Eary-Magnetic-Frameless-Phone-Case-For-Samsung-Galaxy-S25-S24-Ultra-With-360-Rotatable-Stand-Metal.jpg.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sed85c4c41c284361bf9f7ca40930c198C/Eary-Magnetic-Frameless-Phone-Case-For-Samsung-Galaxy-S25-S24-Ultra-With-360-Rotatable-Stand-Metal.jpg.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S9025d9b77dd8420f982c782ed991b03ee/Eary-Magnetic-Frameless-Phone-Case-For-Samsung-Galaxy-S25-S24-Ultra-With-360-Rotatable-Stand-Metal.jpg.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf3049026aa7b466f88b5d3389d1bcad39/Eary-Magnetic-Frameless-Phone-Case-For-Samsung-Galaxy-S25-S24-Ultra-With-360-Rotatable-Stand-Metal.jpg.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sc60605ad27424f7f95eacae5fa282da71/Eary-Magnetic-Frameless-Phone-Case-For-Samsung-Galaxy-S25-S24-Ultra-With-360-Rotatable-Stand-Metal.jpg.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S61189f03aa2d40b4a0aab509629b1049a/Eary-Magnetic-Frameless-Phone-Case-For-Samsung-Galaxy-S25-S24-Ultra-With-360-Rotatable-Stand-Metal.jpg.jpg"
+      ],
+      "details": [],
+      "featured": false,
+      "isNew": true,
+      "rating": 4.7,
+      "reviews": 29,
+      "tone": "#e7dcd0",
+      "blurb": "",
+      "description": "",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "eary-magnetic-frameless-phone-case-for-samsung-galaxy-s25-s2",
+      "name": "Eary Magnetic Frameless Phone Case for Samsung Galaxy S25 S24 Ultra",
+      "category": "tech",
+      "price": 117.02
+    },
+    {
+      "visible": true,
+      "aliUrl": "https://www.aliexpress.com/item/1005013459976684.html?spm=a2g0o.detail.pcDetailBottomMoreOtherSeller.76.6e76rpx4rpx4BE&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.14452.396806.0&scm_id=1007.14452.396806.0&scm-url=1007.14452.396806.0&pvid=ab149ff5-feee-4555-842c-a238b74931ba&_t=gps-id%3ApcDetailBottomMoreOtherSeller%2Cscm-url%3A1007.14452.396806.0%2Cpvid%3Aab149ff5-feee-4555-842c-a238b74931ba%2Ctpp_buckets%3A668%232846%238116%232002&pdp_ext_f=%7B%22order%22%3A%2243%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21PKR%211895.69%21696.06%21%21%2140.17%2114.75%21%400b14ce1917943903309174880e0dd1%2112000061147009910%21rec%21PK%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3A427685a6%3Bm03_new_user%3A-29895%3BpisId%3A5000000219373448&utparam-url=scene%3ApcDetailBottomMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005013459976684%7C_p_origin_prod%3A&search_p4p_id=202611110145309668487932793012673297_3https://www.aliexpress.com/item/1005013459976684.html?spm=a2g0o.detail.pcDetailBottomMoreOtherSeller.76.6e76rpx4rpx4BE&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.14452.396806.0&scm_id=1007.14452.396806.0&scm-url=1007.14452.396806.0&pvid=ab149ff5-feee-4555-842c-a238b74931ba&_t=gps-id%3ApcDetailBottomMoreOtherSeller%2Cscm-url%3A1007.14452.396806.0%2Cpvid%3Aab149ff5-feee-4555-842c-a238b74931ba%2Ctpp_buckets%3A668%232846%238116%232002&pdp_ext_f=%7B%22order%22%3A%2243%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%2C%22fromPage%22%3A%22recommend%22%7D&pdp_npi=6%40dis%21PKR%211895.69%21696.06%21%21%2140.17%2114.75%21%400b14ce1917943903309174880e0dd1%2112000061147009910%21rec%21PK%21%21ABXZ%211%210%21n_tag%3A-29910%3Bd%3A427685a6%3Bm03_new_user%3A-29895%3BpisId%3A5000000219373448&utparam-url=scene%3ApcDetailBottomMoreOtherSeller%7Cquery_from%3A%7Cx_object_id%3A1005013459976684%7C_p_origin_prod%3A&search_p4p_id=202611110145309668487932793012673297_3",
+      "aliQuery": "Ultra Thin High Quality Multi Fold Metal Magnetic",
+      "compareAt": 40.17,
+      "badge": "",
+      "colors": [],
+      "options": [],
+      "optionsSource": "",
+      "quotes": [],
+      "stars": null,
+      "currency": "USD",
+      "images": [
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sfd4ea09168da4f37909e4f2510ac6d79X.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S537ae576a42b48ccbbbd48d5062e95ab0.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb0f3d562b46b4c978ce25ecf8c2b3461f.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S13749152cbf94cb9b310ce055c74a286K.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S53a60d7231554aaabb5ed811c804b1f5S.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S56eb2d03646c41c291881a9f5d27ab0cy.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sfd4ea09168da4f37909e4f2510ac6d79X/Ultra-Thin-High-Quality-Multi-Fold-Metal-Magnetic-Phone-Ring-Holder-Adjustable-360-Rotation-Stand-for.jpg.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S537ae576a42b48ccbbbd48d5062e95ab0/Ultra-Thin-High-Quality-Multi-Fold-Metal-Magnetic-Phone-Ring-Holder-Adjustable-360-Rotation-Stand-for.jpg.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sb0f3d562b46b4c978ce25ecf8c2b3461f/Ultra-Thin-High-Quality-Multi-Fold-Metal-Magnetic-Phone-Ring-Holder-Adjustable-360-Rotation-Stand-for.jpg.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S13749152cbf94cb9b310ce055c74a286K/Ultra-Thin-High-Quality-Multi-Fold-Metal-Magnetic-Phone-Ring-Holder-Adjustable-360-Rotation-Stand-for.jpg.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S53a60d7231554aaabb5ed811c804b1f5S/Ultra-Thin-High-Quality-Multi-Fold-Metal-Magnetic-Phone-Ring-Holder-Adjustable-360-Rotation-Stand-for.jpg.jpg",
+        "https://ae-pic-a1.aliexpress-media.com/kf/S56eb2d03646c41c291881a9f5d27ab0cy/Ultra-Thin-High-Quality-Multi-Fold-Metal-Magnetic-Phone-Ring-Holder-Adjustable-360-Rotation-Stand-for.jpg.jpg"
+      ],
+      "details": [],
+      "featured": false,
+      "isNew": true,
+      "rating": 5,
+      "reviews": 0,
+      "tone": "#e7dcd0",
+      "blurb": "",
+      "description": "",
+      "seoTitle": "",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoImage": "",
+      "slug": "ultra-thin-high-quality-multi-fold-metal-magnetic-phone-ring",
+      "name": "Ultra Thin High Quality Multi Fold Metal Magnetic Phone Ring Holder Adjustable 360° Rotation Stand for Magsafe Phone Bracket",
+      "category": "tech",
+      "price": 14.75
+    }
+  ]
+}
